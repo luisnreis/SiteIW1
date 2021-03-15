@@ -1,0 +1,25 @@
+div {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+h1,h2, div {
+	font-family: Calibri, Helvetica, sans-serif;
+	color: #000000;
+}
+
+h1,h2 {
+	text-align: center;
+}
+body {
+	background-image: url("../img/wallpaper.png");
+	background-repeat: round;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+} 
