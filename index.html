@@ -5,48 +5,68 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<link rel="shortcut icon" href="img/favicon/favicon.jpg">
+	<link rel="shortcut icon" href="img/icons/favicon.jpg">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 
 	<title>Site IW CSS</title>
 </head>
 <body>
-	<header>
-		<nav>
-			<h1>O QUE É CSS</h1>
+	<header class="fixo">
+		<h1><img src="img/icons/logo.png"></h1>
+		<nav class="menu-opcoes">
+			<ul class="ajustes">
+				<li><a href="index.html">Início</a></li>	
+				<li><a href="#html">HTML</a></li>	
+				<li><a href="#css">CSS</a></li>
+				<li><a href="javascript.html#javascript">JavaScript</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
 		</nav>
-	</header>	
+	</header>		
 		<div class="container">
-			<h2>Introdução ao HTML e CSS</h2>
-				<p>HTML (Hyper Text Markup Language) é uma Linguagem de Marcação de Hipertexto utilizada para criação de páginas da Web. Essa é a linguagem que o seu navegador (Browser) decodifica para exibir as páginas. (FERREIRA & EIS, ONLINE, p.7)</p>
-				<p>Hipertexto pode ser definido como todo o conteúdo o qual se encontra inserido em um documento para a web, sendo que sua principal característica seria a possibilidade de se interligar a outros documentos também na web. (SILVA, 2011, p.20)</p>
-				<p>O HTML é baseado no conceito de Hipertexto. Hipertexto são conjuntos de elementos – ou nós – ligados por conexões. Estes elementos podem ser palavras, imagens, vídeos, áudio, documentos etc.</p>
-				<p>Com a linguagem HTML é possível desenvolver toda a estruturação do conteúdo da mesma (título, subtítulo, posicionamento de imagens, tabelas, etc). (W3CSCHOOL, ONLINE)</p>
-				<p>As páginas criadas em html são visualizadas pelos navegadores</p>
-				<p><a href="www.etecmcm.com.br">www.etecmcm.com.br</a> para conhecer um pouquinho mais sobre a ETEC Profª Maria Cristina Medeiros</p>
-				<p>Teclar CTRL+U = código html</p>
-			<h3>Breve Histórico da evolução do  HTML</h3>
-				<p>Desde a invenção da web em 1992 por Tim Berners-Lee, a HTML evoluiu a cada versão lançada, sendo a versão mais atual a HTML5. (SILVA, 2011, p.21)</p>
-					<figure class="imgs">
-						<img src="img/html/evohtml.png" alt="Evolução do HTML durante os anos">
-					</figure>
-				<p></p>
+			<div id="html">	
+				<h2>Introdução ao HTML e CSS</h2>
+					<p>HTML (Hyper Text Markup Language) é uma Linguagem de Marcação de Hipertexto utilizada para criação de páginas da Web. Essa é a linguagem que o seu navegador (Browser) decodifica para exibir as páginas. (FERREIRA & EIS, ONLINE, p.7)</p>
+					<p>Hipertexto pode ser definido como todo o conteúdo o qual se encontra inserido em um documento para a web, sendo que sua principal característica seria a possibilidade de se interligar a outros documentos também na web. (SILVA, 2011, p.20)</p>
+					<p>O HTML é baseado no conceito de Hipertexto. Hipertexto são conjuntos de elementos – ou nós – ligados por conexões. Estes elementos podem ser palavras, imagens, vídeos, áudio, documentos etc.</p>
+					<p>Com a linguagem HTML é possível desenvolver toda a estruturação do conteúdo da mesma (título, subtítulo, posicionamento de imagens, tabelas, etc). (W3CSCHOOL, ONLINE)</p>
+					<p>As páginas criadas em html são visualizadas pelos navegadores</p>
+					<p><a href="www.etecmcm.com.br">www.etecmcm.com.br</a> para conhecer um pouquinho mais sobre a ETEC Profª Maria Cristina Medeiros</p>
+					<p>Teclar CTRL+U = código html</p>
+				<h3>Breve Histórico da evolução do  HTML</h3>
+					<p>Desde a invenção da web em 1992 por Tim Berners-Lee, a HTML evoluiu a cada versão lançada, sendo a versão mais atual a HTML5. (SILVA, 2011, p.21)</p>	 
+				<div class="polaroid">
 					<figure>
-						<img src="img/html/grafhtml.png" alt="Grafico sobre HTML">
+						<img src="img/html/grafhtml.png" alt="Grafico sobre HTML" style="width: 100%">
 					</figure>
+					<div class="textcard">
+						<p>Gráfico sobre o HTML.</p>
+					</div>
+				</div>
 				<p></p>
+				<div class="polaroid">
 					<figure>
-						<img src="img/html/planetahtml.gif" alt="Planeta">
+						<img src="img/html/evohtml.png" alt="Evolução do HTML durante os anos" style="width: 100%">
 					</figure>
-				<p></p>
-			<div>
+					<div class="textcard">
+						<p>Evolução do HTML durantes os anos.</p>
+					</div>
+				</div>
+					<p></p>
+						<figure>
+							<img src="img/html/planetahtml.gif" alt="Planeta">
+						</figure>
+					<p></p>
+				<div>
+			<div/>		
+			<div id="css">	
 				<h2>O que é e para que serve o CSS</h2>
 					<p>CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão da HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.</p>
 					<p>O CSS3 (que vamos aprender) é a segunda versão da linguagem CSS.​</p>
 					<p> Separar o conteúdo do documento HTML de sua formatação.</p>
 					<p>Forma antiga de se formatar conteúdos:​ <"font size=“12” color=“blue”>TEXTO AZUL TAMANHO 12"></ font>
 					<p>Ou seja, se você tivesse 10 tipos diferentes de fontes em uma mesma página, então teria de fazer esta formatação 10 vezes. Até que fazer isto em uma só página, tudo bem, mas se o site tivesse 100 páginas então seria muito trabalhoso manter e alterar estas fontes, não acha?</p>
-						<figure>
+						<figure class="imgs">
 							<img src="img/css/surprisedemojicss.png" alt="Surpreso por conta do CSS">
 						</figure>
 					<p></p>
@@ -57,6 +77,11 @@
 					<p></p>
 					<p><a href="javascript.html">Clique aqui</a> para conhecer um pouquinho mais sobre JavaScript</p>
 					<p><a href="posicionamentos.html">Clique aqui</a> para ver os posicionamentos em CSS!</p>
+			</div>
+			<div id="contato">
+				<p class="maiorparag">Contatos:</p>
+				<p>Wpp: +55 11 945030407</p>
+				<p>E-mail: reisluis123@gmail.com</p>
 			</div>
 		</div>
 	<footer>

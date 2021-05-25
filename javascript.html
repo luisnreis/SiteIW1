@@ -5,31 +5,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<link rel="shortcut icon" href="img/favicon/favicon2.png">
+	<link rel="shortcut icon" href="img/icons/favicon2.png">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 
 	<title>JavaScript</title>
 </head>
 <body>
-
-	<header>
-		<nav>
-			<h1>Sobre JavaScript</h1>
+	<header class="fixo">
+		<h1><img src="img/icons/logo.png"></h1>
+		<nav class="menu-opcoes">
+			<ul class="ajustes">
+				<li><a href="#">Início</a></li>				
+				<li><a href="#tabela">Tabela</a></li>
+				<li><a href="#vantagensedes">Prós e Contras</a></li>
+				<li><a href="index.html#css">CSS</a></li>
+				<li><a href="index.html#html">HTML</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
 		</nav>
 	</header>
 	<div class="container">
-		<div>
-				<p>JavaScript é a linguagem de programação mais popular do mundo.</p>
-				<p>JavaScript é a linguagem de programação da web.</p>
-				<p>JavaScript é fácil de aprender.</p>			
+		<div id="javascript">
+			<h2>O que é JavaScript?</h2>
+				<p>JavaScript é uma linguagem de programação de alto nível criada, a princípio, para ser executada em navegadores e manipular comportamentos de páginas web.</p>
+				<p>O JavaScript é uma das mais importantes tecnologias voltadas para o front-end e, unindo-se ao trio HTML, CSS e PHP, formam um grupo de linguagens que abrangem praticamente todas as exigências do desenvolvimento de uma página completa, dinâmica e com boa performance.</p>
 				<p></p>
-			<ol>
-                <li>HTML para definir o conteúdo das páginas da web</li>
-                <li>CSS para especificar o layout das páginas da web</li>
-                <li>JavaScript para programar o comportamento das páginas da web</li>
-           </ol>
-
-			<h2>Tabela Comparativa entre HTML, CSS e JAVASCRIPT</h2>
+			<ol class="listastextos">
+				<li>HTML para definir o conteúdo das páginas da web</li>
+				<li>CSS para especificar o layout das páginas da web</li>
+				<li>JavaScript para programar o comportamento das páginas da web</li>
+			</ol>
+		<div id="tabela">		
+			<h3>Tabela Comparativa entre HTML, CSS e JAVASCRIPT</h3>
 				<table>
 					<tr> <!--Linha -->
 						<th>HTML</th> <!-- 1ª Coluna-->	
@@ -47,7 +54,45 @@
 						<td>Aqui você insere comportamento e interatividade</td>
 					</tr>
 				</table>
-				<p><a href="index.html">Volte para home</a></p>
+		</div>	
+		<div id="vantagensedes">
+			<h3>Como o JavaScript funciona?</h3>
+				<p>JavaScript, originalmente, é uma linguagem de programação client-side, ou seja, é executada do lado do usuário, mais especificamente pelo navegador utilizado por este usuário. Em outras palavras, isso significa que todas as suas ações são processadas na máquina de quem as utiliza, sem a necessidade de enviá-las a nenhum outro ambiente. Como nada é enviado a nenhum servidor externo para processamento, as respostas são imediatas.</p>
+			<h3>Quais são as vantagens e desvantagens do JavaScript?</h3>
+				<p>O JavaScript é uma linguagem de programação bastante estimada pelo mercado, mas, se você deseja se tornar um programador e ainda está indeciso sobre suas especializações ou com que linguagem começar a sua carreira, veja abaixo uma lista das maiores vantagens e desvantagens do trabalho com JS.</p>
+				<p></p>
+			<h4>Vantagens</h4>
+				<p>Não é à toa que JavaScript é, na maioria das vezes, a primeira linguagem de programação que um recém desenvolvedor aprende, isso acontece porque JS é uma ótima linguagem para um primeiro contato com a programação e, por consequência, para se estudar lógica de programação.</p>
+				<p>Entre outros grandes benefícios de se programar em JavaScript, estão:</p>
+			<ol class="listastextos">
+				<li>Versatilidade da linguagem;</li>
+				<li>Rapidez de leitura e, portanto, rapidez de execução;</li>
+				<li>Sintaxe acessível;</li>
+				<li>Não precisa ser compilada — ou seja, os navegadores são capazes de interpretá-la por conta própria;</li>
+				<li>Ótima linguagem para iniciantes em programação;</li>
+				<li>Compatível com uma grande variedade de navegadores e plataformas;</li>
+				<li>Código leve;</li>
+				<li>Curva de aprendizagem rápida;</li>
+				<li>Grande comunidade ao redor do mundo.</li>
+			</ol>
+				<p></p>
+			<h4>Desvantagens</h4>
+				<p>Como tudo tem dois lados, o JS também conta com algumas desvantagens.</p>
+				<p>Entre elas, estão:</p>
+			<ul>
+				<li>Poucos recursos voltados à segurança;</li>
+				<li>Pode conter brechas para a execução de ações maliciosas;</li>
+				<li>O Node.js está propenso a mais vazamento de memória em processos de execução longa.</li>
+			</ul>
+				<p></p>
+			<h3>Conclusão</h3>
+				<p>Se você está querendo começar na programação e procurando os melhores meios para se inserir no mercado de tecnologia, investir no aprendizado de JavaScript pode ser a sua melhor opção, mas é preciso muita determinação para aprender.</p>
+		</div>
+				<p><a href="index.html">Volte para a página sobre HTML E CSS aqui.</a></p>
+		<div id="contato">
+			<p class="maiorparag">Contatos:</p>
+			<p>Wpp: +55 11 945030407</p>
+			<p>E-mail: reisluis123@gmail.com</p>
 		</div>
 	</div>
 	<footer>
