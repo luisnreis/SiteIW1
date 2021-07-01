@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<?xml version="1.0" encoding="UTF-8"?>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo2.css">
+	<link rel="shortcut icon" href="img/icons/favicon3.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <title>Nos contate.</title>
+</head>
+<body>
+    <div class="container">
+        <form class="fundo">
+            <br>
+            <h1>Nos contate!</h1>
+        <div id="contato">  
+            <input type="text" id="nome" name="nomes" size="30" placeholder="Digite seu nome"><br><br>
+            <input type="email" id="email" name="email" size="30" placeholder="Digite seu e-mail"><br><br>
+        </div>    
+        <div>
+            <input list="genero" name="genero" size="30">
+            <datalist id="genero">
+            <option value="Masculino">
+            <option value="Feminino">
+            <option value="Não-Binário">
+            </datalist>
+        </div>
+        <div class="checkbox">
+            <p>Qual foi teu assunto favorito?</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="assunto1"> HTML</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="assunto2"> CSS</label><br>
+            <input type="checkbox" id="beneficios" name="beneficios" value="Beneficios">
+            <label for="assunto3"> JavaScript</label><br><br>
+        </div>
+        <div>
+            <p>Deixe aqui sua opinião, sugestão ou dúvida.</p>
+            <textarea type="message" placeholder="Deixe aqui sua opinião, sugestão ou dúvida.">
+            </textarea><br><br>			
+            <input type="submit" value="Enviar"><br>
+            <p><a href="index.html">Voltar para home.</a></p><br>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

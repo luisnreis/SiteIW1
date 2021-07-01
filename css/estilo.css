@@ -38,12 +38,8 @@
 		text-align: center;
 	}
 
-	.ajustes li:hover{
-
-	}
-
 	.container {
-		width: 80%
+		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 2%;
@@ -51,22 +47,48 @@
 		position: relative;
 	}
 
-	@media screen and (max-width: 599px) {
-		.container {
-					margin-top: 45%;
-		}
+	#sobre{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		margin: 0 auto;
 	}
 
-	@media screen and (min-width: 600px) {
-		.container {
-			margin-top: 40%;
-		}
-	}	
+	#sobre .sobre{
+		text-align: center;
+	}
 
-	@media only screen and (min-width: 768px) {
-		.container {
-			margin-top: 15%;
-		}
+	.imgsobre{
+		width: 20%;
+		height: 20%;
+	}
+
+
+	#galeria{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		padding-top: 1%;
+		padding-bottom: 2%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius: 10px;
+	}
+
+	#galeria .galeria{
+		text-align: center;
+	}
+
+	.imggaleria{
+		width: 80%;
+		border-radius: 20px;
+		transition: width 1s, height 1s;
+	}
+
+	.imggaleria:hover{
+		width: 90%;
+	}
 
 		header{
 			flex-direction: row;
@@ -82,7 +104,6 @@
 			display: inline;
 			margin-left: 10px;
 		}
-	}
 
 	div {
 		margin-right: auto;
@@ -143,8 +164,8 @@
 		margin-top: 1.5%;
 		margin-left: auto;
 		margin-right: auto;
-
 	}
+
 	.centro {
 		text-align: center;
 	}
@@ -152,7 +173,8 @@
 	.textcard{
 		padding: 10px;
 		margin-right: auto;
-		margin-left: auto;	
+		margin-left: auto;
+		text-align: center;	
 	}
 
 	.polaroid{
@@ -161,10 +183,10 @@
 		text-align: center;
 		margin-right: auto;
 		margin-left: auto;
+		border-radius: 10px;
 	}
 	
 	figure{
-
 		text-align: center;
 	}
 
@@ -203,13 +225,13 @@
 	}
 
 	a:link	{
-		color: #4682B4;
+		color: #2b80c5;
 		background-color: transparent;
 		text-decoration: underline;
 	}
 
 	a:visited	{
-		color: #FF4500;
+		color: #443aa3;
 		background-color: transparent;
 		text-decoration: none;
 	}
@@ -250,6 +272,53 @@
 		background-color: #FFA500;
 	}
 
+
+	@media screen and (max-width: 599px) {
+		.container {
+					margin-top: 45%;
+		}
+	}
+
 	@media screen and (max-width: 600px) {
 
 	}
+
+	@media screen and (min-width: 600px) {
+		.container {
+					margin-top: 40%;
+		}
+	}	
+
+	@media only screen and (min-width: 768px) {
+		.container {
+					margin-top: 15%;
+		}
+		#sobre{
+			flex-direction: row;
+			flex-wrap: wrap;
+
+		}
+
+		#sobre h1, h3, p{
+			text-align: center;
+			width: 100%;
+		}
+
+		#sobre .sobre{
+			width: 25%;
+			text-align: center;
+		}
+		
+		#galeria{
+			flex-wrap: wrap;
+			flex-direction: row; 
+		}
+
+		#galeria .galeria{
+			width: 30%;
+			text-align: center;
+		}
+	}
+
+
+

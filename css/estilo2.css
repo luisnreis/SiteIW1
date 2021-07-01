@@ -1,0 +1,106 @@
+body {
+    background-color: #c0a047;
+    background-repeat: round;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    position: relative;
+}
+
+form {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+p{ 	
+	color: #000;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 1.5%;
+	margin-top: 1.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type=checkbox] {
+    text-align: left;
+}
+
+label[type=checkbox] {
+    text-align: center;
+}
+
+.fundo{
+    background: #ffd154;
+}
+
+input [type=text] {
+    width: 10%;
+    display: block;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    padding: 1%;
+}
+
+textarea{
+    width:300px;
+    height:200px;
+}
+
+a:link	{
+    color: #2b80c5;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited	{
+    color: #443aa3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8B0000;		
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #DC143C;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 630px) {
+    textarea {
+        width:200px;
+        height:100px;
+    }
+}
