@@ -75,29 +75,6 @@ textarea{
     height:200px;
 }
 
-a:link	{
-    color: #2b80c5;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-a:visited	{
-    color: #443aa3;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #8B0000;		
-    background-color: transparent;
-    text-decoration: underline;
-}
-a:active {
-    color: #DC143C;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
 @media screen and (max-width: 660px) {
     form {
         width: 100%;
